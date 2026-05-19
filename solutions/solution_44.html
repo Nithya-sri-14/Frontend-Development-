@@ -1,19 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body { font-family: sans-serif; padding: 20px; }
-</style>
+    <style>
+        .container { background: #f0f0f0; padding: 50px; border: 1px dashed #ccc; }
+        .box {
+            width: 200px;
+            height: 100px;
+            padding: 20px;
+            border: 10px solid #3498db;
+            margin: 30px;
+            background-color: #fff;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+            font-family: sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            outline: 5px solid rgba(255,0,0,0.3);
+            box-sizing: content-box;
+        }
+        .label { font-size: 0.8rem; color: #666; margin-top: 10px; }
+    </style>
 </head>
 <body>
-<style>
-.box {
-  width: 100px;
-  padding: 10px;
-  border: 1px solid black;
-  margin: 5px;
-}
-</style>
-<div class="box">Box 7</div>
+    <div class='container'>
+        <div class='box'>
+            <strong>Box Model Item 44</strong>
+        </div>
+        <p class='label'>This box shows padding, border, margin, and outline in action.</p>
+    </div>
 </body>
 </html>

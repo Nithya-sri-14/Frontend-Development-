@@ -1,22 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body { font-family: sans-serif; padding: 20px; }
-</style>
+    <style>
+        .table-container { margin: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; font-family: sans-serif; }
+        table { width: 100%; border-collapse: collapse; }
+        caption { padding: 15px; font-weight: bold; font-size: 1.2rem; background: #3f51b5; color: white; }
+        th, td { padding: 15px; text-align: center; border-bottom: 1px solid #eee; }
+        thead { background: #f8f9fa; }
+        tfoot { font-weight: bold; background: #f8f9fa; }
+        tbody tr:hover { background: #f1f1f1; }
+    </style>
 </head>
 <body>
-<table>
-  <caption>Monthly Sales</caption>
-  <thead>
-    <tr><th>Month</th><th>Sales</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Jan</td><td>$1000</td></tr>
-  </tbody>
-  <tfoot>
-    <tr><td>Total</td><td>$1000</td></tr>
-  </tfoot>
-</table>
+    <div class='table-container'>
+        <table>
+            <caption>Monthly Sales Report 126</caption>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Units</th>
+                    <th>Revenue</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Widget A</td>
+                    <td>150</td>
+                    <td>$1,500</td>
+                </tr>
+                <tr>
+                    <td>Widget B</td>
+                    <td>80</td>
+                    <td>$800</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>230</td>
+                    <td>$2,300</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>

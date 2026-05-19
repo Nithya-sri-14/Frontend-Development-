@@ -1,17 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-body { font-family: sans-serif; padding: 20px; }
-</style>
+    <style>
+        body { font-family: sans-serif; margin: 0; display: flex; align-items: center; justify-content: center; min-height: 100vh; background: #fafafa; }
+        .responsive-card {
+            width: 90%;
+            max-width: 400px;
+            background: white;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: 0.3s;
+        }
+        .color-box {
+            height: 100px;
+            background: #6200ee;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            transition: 0.5s;
+        }
+        h2 { margin: 10px 0; color: #333; }
+        
+        /* Tablet Breakpoint */
+        @media (min-width: 600px) {
+            .responsive-card { max-width: 600px; display: flex; align-items: center; text-align: left; gap: 20px; }
+            .color-box { flex: 0 0 150px; margin-bottom: 0; background: #03dac6; }
+        }
+        
+        /* Desktop Breakpoint */
+        @media (min-width: 1000px) {
+            body { background: #e0e0e0; }
+            .responsive-card { max-width: 900px; padding: 40px; border-radius: 0; }
+            .color-box { background: #cf6679; flex: 0 0 300px; }
+        }
+    </style>
 </head>
 <body>
-<style>
-.menu { display: flex; }
-@media (max-width: 768px) {
-  .menu { flex-direction: column; }
-  .hide-mobile { display: none; }
-}
-</style>
+    <div class='responsive-card'>
+        <div class='color-box'></div>
+        <div>
+            <h2>Responsive Challenge 186</h2>
+            <p>Resize your browser window to see the layout, colors, and font sizes change dynamically! This demonstrates mobile-first design and complex media queries.</p>
+        </div>
+    </div>
 </body>
 </html>
