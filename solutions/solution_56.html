@@ -1,16 +1,32 @@
 <!DOCTYPE html><html><head><style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-    </style></head><body>
-        <div class="container">
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f9f9f9; }
+    .component-container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; }
+    h1, h2 { color: #2ecc71; margin-top: 0; }
+    .tag { display: inline-block; padding: 4px 12px; background: #2ecc71; color: white; border-radius: 20px; font-size: 0.8rem; margin-bottom: 15px; }
+    
+        <div class="component-container">
+            <span class="tag">Flexbox - Beginner</span>
             <h2>Flexbox Beginner Challenge #8</h2>
-            <p>Implement a card grid with 'Read More' buttons at the bottom.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: space-between; background: #eee; padding: 20px; border-radius: 4px;">
-                <div style="flex: 1 1 150px; height: 100px; background: #1abc9c; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 1</div>
-                <div style="flex: 1 1 150px; height: 100px; background: #3498db; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 2</div>
-                <div style="flex: 1 1 150px; height: 100px; background: #9b59b6; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 3</div>
-                <div style="flex: 1 1 150px; height: 100px; background: #f1c40f; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 4</div>
+            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Implement a card grid with 'Read More' buttons at the bottom.</p>
+            <div style="height: 2px; background: linear-gradient(to right, #2ecc71, transparent); margin-bottom: 30px;"></div>
+    
+            <div style="display: flex; gap: 20px; flex-wrap: wrap; margin-top: 20px;">
+                <div style="flex: 1; min-width: 250px; background: #fff; border: 1px solid #eee; border-radius: 10px; overflow: hidden; transition: transform 0.3s; cursor: pointer;">
+                    <div style="height: 150px; background: #2ecc71;"></div>
+                    <div style="padding: 20px;">
+                        <h4 style="margin: 0 0 10px 0;">Component Development</h4>
+                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">Learn how to build reusable UI components using the latest CSS techniques.</p>
+                        <a href="#" style="color: #2ecc71; text-decoration: none; font-weight: bold; font-size: 0.9rem;">Read More &rarr;</a>
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 250px; background: #fff; border: 1px solid #eee; border-radius: 10px; overflow: hidden; transition: transform 0.3s; cursor: pointer;">
+                    <div style="height: 150px; background: #2ecc71;"></div>
+                    <div style="padding: 20px;">
+                        <h4 style="margin: 0 0 10px 0;">Layout Mastery</h4>
+                        <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">Master Flexbox and Grid to create complex, responsive layouts with ease.</p>
+                        <a href="#" style="color: #2ecc71; text-decoration: none; font-weight: bold; font-size: 0.9rem;">Read More &rarr;</a>
+                    </div>
+                </div>
             </div>
-        </div>
-        </body></html>
+    </div>
+</body></html>

@@ -1,19 +1,30 @@
 <!DOCTYPE html><html><head><style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-    </style></head><body>
-        <div class="container">
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f4f7f6; }
+    .component-container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; }
+    h1, h2 { color: #e67e22; margin-top: 0; }
+    .tag { display: inline-block; padding: 4px 12px; background: #e67e22; color: white; border-radius: 20px; font-size: 0.8rem; margin-bottom: 15px; }
+    
+        <div class="component-container">
+            <span class="tag">Box Model - Hard</span>
             <h2>Box Model Hard Challenge #3</h2>
-            <p>Design a grid of boxes with uniform margins and padding.</p>
-            <div style="margin: 40px; border: 5px solid #2c3e50; padding: 30px; background: #ecf0f1; text-align: center;">
-                <div style="background: #3498db; color: white; padding: 20px; border: 2px solid white;">
-                    Inner Content with Padding, Border, and Margin
+            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Design a grid of boxes with uniform margins and padding.</p>
+            <div style="height: 2px; background: linear-gradient(to right, #e67e22, transparent); margin-bottom: 30px;"></div>
+    
+            <form style="max-width: 500px; margin-top: 20px;">
+                
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight: 500;">Full Name</label>
+                    <input type="text" placeholder="Your Name" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
                 </div>
-            </div>
-            <div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
-                <div style="width: 100px; height: 100px; background: #e74c3c; display: flex; align-items: center; justify-content: center; color: white;">Margin</div>
-                <div style="width: 100px; height: 100px; background: #2ecc71; display: flex; align-items: center; justify-content: center; color: white;">Padding</div>
-            </div>
-        </div>
-        </body></html>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight: 500;">Subject</label>
+                    <input type="text" placeholder="How can we help?" style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;">
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <label style="display: block; margin-bottom: 5px; font-weight: 500;">Message</label>
+                    <textarea rows="5" placeholder="Write your message here..." style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box; resize: vertical;"></textarea>
+                </div>
+                <button type="button" style="background: #e67e22; color: white; border: none; padding: 12px 30px; border-radius: 6px; cursor: pointer; font-size: 1rem; font-weight: 600; width: 100%;">Submit</button>
+            </form>
+    </div>
+</body></html>

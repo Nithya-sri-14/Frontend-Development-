@@ -1,40 +1,22 @@
 <!DOCTYPE html><html><head><style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-    </style></head><body>
-        <style>
-            .responsive-box {
-                background-color: #3498db;
-                color: white;
-                padding: 40px;
-                text-align: center;
-                font-size: 1.5rem;
-                transition: all 0.3s ease;
-            }
-            .sidebar { display: none; background: #ecf0f1; padding: 20px; }
-            
-            @media (min-width: 768px) {
-                .responsive-box { background-color: #2ecc71; font-size: 2rem; }
-                .main-layout { display: flex; gap: 20px; }
-                .sidebar { display: block; flex: 1; }
-                .content { flex: 3; }
-            }
-            
-            @media (min-width: 1024px) {
-                .responsive-box { background-color: #e67e22; }
-            }
-        </style>
-        <div class="container">
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #ecf0f1; }
+    .component-container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; }
+    h1, h2 { color: #34495e; margin-top: 0; }
+    .tag { display: inline-block; padding: 4px 12px; background: #34495e; color: white; border-radius: 20px; font-size: 0.8rem; margin-bottom: 15px; }
+    
+        <div class="component-container">
+            <span class="tag">Responsive Design - Beginner</span>
             <h2>Responsive Design Beginner Challenge #4</h2>
-            <p>Implement a hero section that changes orientation based on aspect ratio.</p>
-            <div class="main-layout">
-                <div class="sidebar">Desktop Sidebar</div>
-                <div class="content">
-                    <div class="responsive-box">
-                        Resize the window!
-                    </div>
+            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Implement a hero section that changes orientation based on aspect ratio.</p>
+            <div style="height: 2px; background: linear-gradient(to right, #34495e, transparent); margin-bottom: 30px;"></div>
+    
+            <section style="background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%); color: white; padding: 80px 40px; border-radius: 12px; text-align: center; margin-top: 20px;">
+                <h1 style="font-size: 3rem; margin-bottom: 20px; color: white;">Transform Your Workflow</h1>
+                <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto 30px; color: rgba(255,255,255,0.8);">Our modern framework provides everything you need to build stunning interfaces in record time.</p>
+                <div style="display: flex; gap: 15px; justify-content: center;">
+                    <button style="background: #fff; color: #34495e; border: none; padding: 15px 40px; border-radius: 30px; font-weight: bold; cursor: pointer; font-size: 1.1rem;">Get Started</button>
+                    <button style="background: transparent; border: 2px solid rgba(255,255,255,0.3); color: white; padding: 15px 40px; border-radius: 30px; font-weight: bold; cursor: pointer; font-size: 1.1rem;">Learn More</button>
                 </div>
-            </div>
-        </div>
-        </body></html>
+            </section>
+    </div>
+</body></html>

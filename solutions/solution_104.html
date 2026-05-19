@@ -1,23 +1,53 @@
 <!DOCTYPE html><html><head><style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-    </style></head><body>
-        <header style="background: #34495e; color: white; padding: 1rem; text-align: center;">
-            <h2>Semantic HTML Intermediate Challenge #4 Header</h2>
-        </header>
-        <main style="padding: 20px; display: grid; gap: 20px;">
-            <article style="background: white; border: 1px solid #ddd; padding: 15px;">
-                <h3>Article Title</h3>
-                <p>This is a semantically correct article within the main tag. Create a portfolio layout with header, main (projects), and footer.</p>
-                <footer>Published on <time datetime="2026-05-19">May 19, 2026</time></footer>
-            </article>
-            <aside style="background: #ecf0f1; padding: 10px; border-left: 5px solid #3498db;">
-                <h4>Related Info</h4>
-                <p>Sidebar content using the aside tag.</p>
-            </aside>
-        </main>
-        <footer style="text-align: center; padding: 20px; font-size: 0.8rem; color: #7f8c8d;">
-            &copy; 2026 Frontend Learning Portal
-        </footer>
-        </body></html>
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f0f0f0; }
+    .component-container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; }
+    h1, h2 { color: #e67e22; margin-top: 0; }
+    .tag { display: inline-block; padding: 4px 12px; background: #e67e22; color: white; border-radius: 20px; font-size: 0.8rem; margin-bottom: 15px; }
+    
+        <div class="component-container">
+            <span class="tag">Semantic HTML - Intermediate</span>
+            <h2>Semantic HTML Intermediate Challenge #4</h2>
+            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Create a portfolio layout with header, main (projects), and footer.</p>
+            <div style="height: 2px; background: linear-gradient(to right, #e67e22, transparent); margin-bottom: 30px;"></div>
+    
+            <footer style="background: #2c3e50; color: white; padding: 50px 20px; border-radius: 8px; margin-top: 30px;">
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; max-width: 1000px; margin: auto;">
+                    <div>
+                        <h4 style="color: #e67e22; margin-bottom: 20px;">Company</h4>
+                        <p style="font-size: 0.9rem; color: #bdc3c7;">Building the future of the web, one component at a time.</p>
+                        <div style="display: flex; gap: 10px; margin-top: 20px;">
+                            <div style="width: 30px; height: 30px; background: #444; border-radius: 50%;"></div>
+                            <div style="width: 30px; height: 30px; background: #444; border-radius: 50%;"></div>
+                            <div style="width: 30px; height: 30px; background: #444; border-radius: 50%;"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 20px;">Quick Links</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #bdc3c7;">
+                            <li style="margin-bottom: 10px;"><a href="#" style="color: inherit; text-decoration: none;">Documentation</a></li>
+                            <li style="margin-bottom: 10px;"><a href="#" style="color: inherit; text-decoration: none;">Components</a></li>
+                            <li style="margin-bottom: 10px;"><a href="#" style="color: inherit; text-decoration: none;">Templates</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 20px;">Support</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.9rem; color: #bdc3c7;">
+                            <li style="margin-bottom: 10px;"><a href="#" style="color: inherit; text-decoration: none;">Help Center</a></li>
+                            <li style="margin-bottom: 10px;"><a href="#" style="color: inherit; text-decoration: none;">Contact Us</a></li>
+                            <li style="margin-bottom: 10px;"><a href="#" style="color: inherit; text-decoration: none;">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 style="margin-bottom: 20px;">Newsletter</h4>
+                        <div style="display: flex; gap: 5px;">
+                            <input type="email" placeholder="Email" style="padding: 8px; border-radius: 4px; border: none; flex-grow: 1;">
+                            <button style="background: #e67e22; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer;">Join</button>
+                        </div>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #444; font-size: 0.8rem; color: #7f8c8d;">
+                    &copy; 2026 Frontend Solutions Inc. All rights reserved.
+                </div>
+            </footer>
+    </div>
+</body></html>

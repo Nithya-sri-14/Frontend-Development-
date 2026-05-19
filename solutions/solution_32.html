@@ -1,31 +1,53 @@
 <!DOCTYPE html><html><head><style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-    </style></head><body>
-        <div class="container">
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f9f9f9; }
+    .component-container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; }
+    h1, h2 { color: #9b59b6; margin-top: 0; }
+    .tag { display: inline-block; padding: 4px 12px; background: #9b59b6; color: white; border-radius: 20px; font-size: 0.8rem; margin-bottom: 15px; }
+    
+        <div class="component-container">
+            <span class="tag">Tables - Beginner</span>
             <h2>Tables Beginner Challenge #8</h2>
-            <p>Implement a responsive table that stacks cells on mobile.</p>
-            <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Implement a responsive table that stacks cells on mobile.</p>
+            <div style="height: 2px; background: linear-gradient(to right, #9b59b6, transparent); margin-bottom: 30px;"></div>
+    
+            <table style="width: 100%; border-collapse: collapse; margin-top: 20px; border-radius: 8px; overflow: hidden; box-shadow: 0 0 10px rgba(0,0,0,0.05);">
                 <thead>
-                    <tr style="background-color: #3498db; color: white;">
-                        <th style="padding: 12px; border: 1px solid #ddd; text-align: left;">ID</th>
-                        <th style="padding: 12px; border: 1px solid #ddd; text-align: left;">Name</th>
-                        <th style="padding: 12px; border: 1px solid #ddd; text-align: left;">Status</th>
+                    <tr style="background: #9b59b6; color: white;">
+                        <th style="padding: 15px; text-align: left;">Employee</th>
+                        <th style="padding: 15px; text-align: left;">Role</th>
+                        <th style="padding: 15px; text-align: left;">Department</th>
+                        <th style="padding: 15px; text-align: left;">Status</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
-                        <td style="padding: 12px; border: 1px solid #ddd;">001</td>
-                        <td style="padding: 12px; border: 1px solid #ddd;">Product A</td>
-                        <td style="padding: 12px; border: 1px solid #ddd;"><span style="background: #27ae60; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.8rem;">Active</span></td>
+                    <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px; display: flex; align-items: center;">
+                            <div style="width: 35px; height: 35px; background: #ddd; border-radius: 50%; margin-right: 10px;"></div>
+                            Alice Johnson
+                        </td>
+                        <td style="padding: 15px;">Frontend Developer</td>
+                        <td style="padding: 15px;">Engineering</td>
+                        <td style="padding: 15px;"><span style="background: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem;">Active</span></td>
                     </tr>
-                    <tr style="background-color: #f9f9f9;">
-                        <td style="padding: 12px; border: 1px solid #ddd;">002</td>
-                        <td style="padding: 12px; border: 1px solid #ddd;">Product B</td>
-                        <td style="padding: 12px; border: 1px solid #ddd;"><span style="background: #e67e22; color: white; padding: 3px 8px; border-radius: 12px; font-size: 0.8rem;">Pending</span></td>
+                    <tr style="border-bottom: 1px solid #eee; background: #fafafa;">
+                        <td style="padding: 15px; display: flex; align-items: center;">
+                            <div style="width: 35px; height: 35px; background: #ddd; border-radius: 50%; margin-right: 10px;"></div>
+                            Bob Smith
+                        </td>
+                        <td style="padding: 15px;">UI Designer</td>
+                        <td style="padding: 15px;">Design</td>
+                        <td style="padding: 15px;"><span style="background: #fff3e0; color: #ef6c00; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem;">On Leave</span></td>
+                    </tr>
+                    <tr style="border-bottom: 1px solid #eee;">
+                        <td style="padding: 15px; display: flex; align-items: center;">
+                            <div style="width: 35px; height: 35px; background: #ddd; border-radius: 50%; margin-right: 10px;"></div>
+                            Charlie Brown
+                        </td>
+                        <td style="padding: 15px;">Product Manager</td>
+                        <td style="padding: 15px;">Product</td>
+                        <td style="padding: 15px;"><span style="background: #e8f5e9; color: #2e7d32; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem;">Active</span></td>
                     </tr>
                 </tbody>
             </table>
-        </div>
-        </body></html>
+    </div>
+</body></html>

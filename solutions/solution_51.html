@@ -1,16 +1,31 @@
 <!DOCTYPE html><html><head><style>
-    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
-    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
-    </style></head><body>
-        <div class="container">
+    body { font-family: 'Segoe UI', Arial, sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 20px; background-color: #f4f7f6; }
+    .component-container { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.05); max-width: 1000px; margin: auto; }
+    h1, h2 { color: #f1c40f; margin-top: 0; }
+    .tag { display: inline-block; padding: 4px 12px; background: #f1c40f; color: white; border-radius: 20px; font-size: 0.8rem; margin-bottom: 15px; }
+    
+        <div class="component-container">
+            <span class="tag">Flexbox - Beginner</span>
             <h2>Flexbox Beginner Challenge #3</h2>
-            <p>Design a 3-column feature section with equal heights.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: space-between; background: #eee; padding: 20px; border-radius: 4px;">
-                <div style="flex: 1 1 150px; height: 100px; background: #1abc9c; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 1</div>
-                <div style="flex: 1 1 150px; height: 100px; background: #3498db; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 2</div>
-                <div style="flex: 1 1 150px; height: 100px; background: #9b59b6; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 3</div>
-                <div style="flex: 1 1 150px; height: 100px; background: #f1c40f; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 4</div>
-            </div>
-        </div>
-        </body></html>
+            <p style="color: #666; font-size: 0.95rem; margin-bottom: 25px;">Design a 3-column feature section with equal heights.</p>
+            <div style="height: 2px; background: linear-gradient(to right, #f1c40f, transparent); margin-bottom: 30px;"></div>
+    
+            <article style="border: 1px solid #ddd; padding: 20px; border-radius: 8px; margin-top: 20px;">
+                <header style="margin-bottom: 15px; border-bottom: 1px solid #eee; padding-bottom: 10px;">
+                    <h3 style="margin: 0;">Featured Insight: Flexbox</h3>
+                    <time datetime="2026-05-20" style="font-size: 0.8rem; color: #999;">May 20, 2026</time>
+                </header>
+                <section>
+                    <p>Implementing <strong>design a 3-column feature section with equal heights.</strong> is a critical skill for frontend developers. This example demonstrates how to use proper semantic tags like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and <code>&lt;header&gt;</code>.</p>
+                    <p style="background: #fdf2f2; border-left: 4px solid #f1c40f; padding: 10px; font-style: italic;">"Clean code is not written by chance; it is a result of deliberate design."</p>
+                </section>
+                <footer style="margin-top: 20px; padding-top: 10px; border-top: 1px solid #eee; display: flex; justify-content: space-between; align-items: center;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <div style="width: 24px; height: 24px; background: #f1c40f; border-radius: 50%;"></div>
+                        <span style="font-size: 0.85rem; font-weight: 500;">By Frontend Guru</span>
+                    </div>
+                    <button style="background: #f1c40f; color: white; border: none; padding: 5px 15px; border-radius: 4px; cursor: pointer; font-size: 0.8rem;">Like</button>
+                </footer>
+            </article>
+    </div>
+</body></html>
