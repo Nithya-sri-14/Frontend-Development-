@@ -1,28 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
-        .demo-container { max-width: 900px; margin: auto; background: white; padding: 10px; }
-        h1 { color: #1abc9c; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #1abc9c; padding-bottom: 10px; }
-        .description { color: #666; font-style: italic; margin-bottom: 25px; }
-        .work-area { border: none; padding: 0; }
-    
-        .flex-box { display: flex; flex-wrap: wrap; gap: 15px; }
-        .flex-item { background: #1abc9c; color: white; padding: 15px; border-radius: 5px; flex: 1; min-width: 100px; text-align: center; }
-    </style>
-</head>
-<body><div class="demo-container">
-    
-    
-    <div class="work-area">
-        <div class="flex-box">
-            <div class="flex-item">Flex 1</div>
-            <div class="flex-item">Flex 2</div>
-            <div class="flex-item">Flex 3</div>
+<!DOCTYPE html><html><head><style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+    </style></head><body>
+        <div class="container">
+            <h2>Flexbox Hard Challenge #12</h2>
+            <p>Design a landing page section with alternating images.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: space-between; background: #eee; padding: 20px; border-radius: 4px;">
+                <div style="flex: 1 1 150px; height: 100px; background: #1abc9c; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 1</div>
+                <div style="flex: 1 1 150px; height: 100px; background: #3498db; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 2</div>
+                <div style="flex: 1 1 150px; height: 100px; background: #9b59b6; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 3</div>
+                <div style="flex: 1 1 150px; height: 100px; background: #f1c40f; color: white; display: flex; align-items: center; justify-content: center; border-radius: 4px;">Item 4</div>
+            </div>
         </div>
-        <p style="margin-top:10px; font-weight:bold;">Design a landing page section with alternating images.</p>
-    </div>
-</div>
-</body>
-</html>
+        </body></html>

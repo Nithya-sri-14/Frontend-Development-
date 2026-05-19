@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <style>
-        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
-        .demo-container { max-width: 900px; margin: auto; background: white; padding: 10px; }
-        h1 { color: #e67e22; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #e67e22; padding-bottom: 10px; }
-        .description { color: #666; font-style: italic; margin-bottom: 25px; }
-        .work-area { border: none; padding: 0; }
-    
-    </style>
-</head>
-<body><div class="demo-container">
-    
-    
-    <div class="work-area"><div style='padding:20px; border:2px solid #e67e22; text-align:center;'>Implement a layout using box-sizing: content-box for comparison.</div>
-    </div>
-</div>
-</body>
-</html>
+<!DOCTYPE html><html><head><style>
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1200px; margin: 0 auto; padding: 20px; background-color: #f4f7f6; }
+    .container { background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+    </style></head><body>
+        <div class="container">
+            <h2>Box Model Hard Challenge #8</h2>
+            <p>Implement a layout using box-sizing: content-box for comparison.</p>
+            <div style="margin: 40px; border: 5px solid #2c3e50; padding: 30px; background: #ecf0f1; text-align: center;">
+                <div style="background: #3498db; color: white; padding: 20px; border: 2px solid white;">
+                    Inner Content with Padding, Border, and Margin
+                </div>
+            </div>
+            <div style="display: flex; gap: 20px; justify-content: center; margin-top: 20px;">
+                <div style="width: 100px; height: 100px; background: #e74c3c; display: flex; align-items: center; justify-content: center; color: white;">Margin</div>
+                <div style="width: 100px; height: 100px; background: #2ecc71; display: flex; align-items: center; justify-content: center; color: white;">Padding</div>
+            </div>
+        </div>
+        </body></html>
