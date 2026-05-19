@@ -1,0 +1,6 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1280' height='720' viewBox='0 0 1280 720'>
+  <rect width='1280' height='720' fill='#fff7ed'/>
+  <rect x='36' y='36' width='1208' height='648' rx='20' fill='white' stroke='#b45309' stroke-width='5'/>
+  <text x='78' y='98' font-family='Arial, sans-serif' font-size='30' font-weight='800' fill='#b45309'>Scale Border Framing Task - Box Model Practice H153</text>
+  <rect x='80' y='190' width='1120' height='90' rx='12' fill='#dbeafe'/><text x='94' y='224' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#111827'>Scale</text><rect x='80' y='295' width='1120' height='120' rx='12' fill='#e2e8f0'/><text x='94' y='329' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#111827'>Border</text><rect x='80' y='430' width='360' height='180' rx='12' fill='#fef3c7'/><text x='94' y='464' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#111827'>Framing</text><rect x='460' y='430' width='360' height='180' rx='12' fill='#dcfce7'/><text x='474' y='464' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#111827'>Task</text><rect x='840' y='430' width='360' height='180' rx='12' fill='#ede9fe'/><text x='854' y='464' font-family='Arial, sans-serif' font-size='22' font-weight='700' fill='#111827'>Box Model Practice</text>
+</svg>
