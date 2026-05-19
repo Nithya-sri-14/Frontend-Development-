@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <rect width="1280" height="720" fill="#fff7ed"/>
+  <rect x="48" y="48" width="1184" height="624" rx="24" fill="#ffffff" stroke="#b45309" stroke-width="5"/>
+  <text x="88" y="108" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#b45309">Research Experiment Log</text>
+  <text x="88" y="152" font-family="Arial, sans-serif" font-size="22" fill="#0f172a">Hard • Tables • Reference UI #115</text>
+  <rect x="88" y="210" width="1050" height="90" rx="14" fill="#dbeafe"/>
+<rect x="88" y="320" width="515" height="190" rx="14" fill="#e2e8f0"/>
+<rect x="623" y="320" width="515" height="190" rx="14" fill="#fef3c7"/>
+  <rect x="88" y="535" width="520" height="66" rx="12" fill="#b45309"/>
+  <text x="116" y="577" font-family="Arial, sans-serif" font-size="23" fill="#ffffff">Code this UI exactly in HTML + CSS</text>
+</svg>
