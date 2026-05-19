@@ -2,47 +2,19 @@
 <html>
 <head>
     <style>
-        body { font-family: sans-serif; margin: 0; display: flex; align-items: center; justify-content: center; min-height: 100vh; background: #fafafa; }
-        .responsive-card {
-            width: 90%;
-            max-width: 400px;
-            background: white;
-            padding: 20px;
-            border-radius: 15px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            text-align: center;
-            transition: 0.3s;
-        }
-        .color-box {
-            height: 100px;
-            background: #6200ee;
-            border-radius: 10px;
-            margin-bottom: 20px;
-            transition: 0.5s;
-        }
-        h2 { margin: 10px 0; color: #333; }
-        
-        /* Tablet Breakpoint */
-        @media (min-width: 600px) {
-            .responsive-card { max-width: 600px; display: flex; align-items: center; text-align: left; gap: 20px; }
-            .color-box { flex: 0 0 150px; margin-bottom: 0; background: #03dac6; }
-        }
-        
-        /* Desktop Breakpoint */
-        @media (min-width: 1000px) {
-            body { background: #e0e0e0; }
-            .responsive-card { max-width: 900px; padding: 40px; border-radius: 0; }
-            .color-box { background: #cf6679; flex: 0 0 300px; }
-        }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+        .demo-container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #9b59b6; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #9b59b6; padding-bottom: 10px; }
+        .description { color: #666; font-style: italic; margin-bottom: 25px; }
+        .work-area { border: 2px dashed #ddd; padding: 20px; border-radius: 8px; }
+    
     </style>
 </head>
-<body>
-    <div class='responsive-card'>
-        <div class='color-box'></div>
-        <div>
-            <h2>Responsive Challenge 182</h2>
-            <p>Resize your browser window to see the layout, colors, and font sizes change dynamically! This demonstrates mobile-first design and complex media queries.</p>
-        </div>
+<body><div class="demo-container">
+    <h1>Media Queries Intermediate Challenge #8</h1>
+    <p class="description">Task: Build a responsive footer with collapsible menu sections.</p>
+    <div class="work-area"><div style='padding:20px; border:2px solid #9b59b6; text-align:center;'>Build a responsive footer with collapsible menu sections.</div>
     </div>
+</div>
 </body>
 </html>

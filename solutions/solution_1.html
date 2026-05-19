@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 <head>
     <style>
-        body { font-family: sans-serif; background: #f4f4f4; padding: 20px; }
-        header { background: #333; color: white; padding: 1rem; text-align: center; }
-        main { background: white; padding: 20px; margin-top: 10px; border-radius: 8px; }
-        footer { margin-top: 20px; text-align: center; color: #666; font-size: 0.8rem; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+        .demo-container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #3498db; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .description { color: #666; font-style: italic; margin-bottom: 25px; }
+        .work-area { border: 2px dashed #ddd; padding: 20px; border-radius: 8px; }
+    
     </style>
 </head>
-<body>
-    <header>
-        <h1>My Simple Website</h1>
-    </header>
-    <main>
-        <h2>Welcome to Page 1</h2>
-        <p>This is a beginner-level semantic HTML structure using header, main, and footer tags.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 Beginner Projects</p>
-    </footer>
+<body><div class="demo-container">
+    <h1>Semantic HTML Beginner Challenge #1</h1>
+    <p class="description">Task: Build a semantic navigation bar with a logo and menu items.</p>
+    <div class="work-area">
+        <header>
+            <nav>
+                <ul style="display:flex; list-style:none; gap:20px; background:#333; padding:15px; border-radius:5px;">
+                    <li><a href="#" style="color:white; text-decoration:none;">Home</a></li>
+                    <li><a href="#" style="color:white; text-decoration:none;">About</a></li>
+                    <li><a href="#" style="color:white; text-decoration:none;">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+</div>
 </body>
 </html>

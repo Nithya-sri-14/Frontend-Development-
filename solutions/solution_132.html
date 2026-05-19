@@ -2,46 +2,27 @@
 <html>
 <head>
     <style>
-        .table-container { margin: 20px; box-shadow: 0 0 20px rgba(0,0,0,0.1); border-radius: 8px; overflow: hidden; font-family: sans-serif; }
-        table { width: 100%; border-collapse: collapse; }
-        caption { padding: 15px; font-weight: bold; font-size: 1.2rem; background: #3f51b5; color: white; }
-        th, td { padding: 15px; text-align: center; border-bottom: 1px solid #eee; }
-        thead { background: #f8f9fa; }
-        tfoot { font-weight: bold; background: #f8f9fa; }
-        tbody tr:hover { background: #f1f1f1; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+        .demo-container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #f1c40f; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #f1c40f; padding-bottom: 10px; }
+        .description { color: #666; font-style: italic; margin-bottom: 25px; }
+        .work-area { border: 2px dashed #ddd; padding: 20px; border-radius: 8px; }
+    th { background: #f1c40f; color: white; } td, th { border: 1px solid #ddd; padding: 8px; }
     </style>
 </head>
-<body>
-    <div class='table-container'>
-        <table>
-            <caption>Monthly Sales Report 132</caption>
-            <thead>
-                <tr>
-                    <th>Product</th>
-                    <th>Units</th>
-                    <th>Revenue</th>
-                </tr>
-            </thead>
+<body><div class="demo-container">
+    <h1>Tables Intermediate Challenge #8</h1>
+    <p class="description">Task: Implement a table with vertical text in headers.</p>
+    <div class="work-area">
+        <table style="width:100%; border-collapse:collapse;">
+            <thead><tr><th>Header A</th><th>Header B</th></tr></thead>
             <tbody>
-                <tr>
-                    <td>Widget A</td>
-                    <td>150</td>
-                    <td>$1,500</td>
-                </tr>
-                <tr>
-                    <td>Widget B</td>
-                    <td>80</td>
-                    <td>$800</td>
-                </tr>
+                <tr><td>Data 1</td><td>Data 2</td></tr>
+                <tr><td>Data 3</td><td>Data 4</td></tr>
             </tbody>
-            <tfoot>
-                <tr>
-                    <td>Total</td>
-                    <td>230</td>
-                    <td>$2,300</td>
-                </tr>
-            </tfoot>
         </table>
+        <p style="margin-top:10px;"><b>Task:</b> Implement a table with vertical text in headers.</p>
     </div>
+</div>
 </body>
 </html>

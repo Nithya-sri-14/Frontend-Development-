@@ -2,51 +2,27 @@
 <html>
 <head>
     <style>
-        table { border-collapse: collapse; width: 90%; margin: auto; font-family: Arial, sans-serif; }
-        colgroup .category-col { background-color: #e3f2fd; width: 30%; }
-        colgroup .val-cols { width: 35%; }
-        th, td { border: 2px solid #1976d2; padding: 12px; text-align: center; }
-        th { background-color: #2196f3; color: white; text-transform: uppercase; }
-        .header-main { font-size: 1.1rem; }
-        .header-sub { background-color: #bbdefb; color: #333; font-size: 0.9rem; }
-        td { color: #555; }
-        tr:hover td { background-color: #fff9c4; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+        .demo-container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #3498db; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .description { color: #666; font-style: italic; margin-bottom: 25px; }
+        .work-area { border: 2px dashed #ddd; padding: 20px; border-radius: 8px; }
+    th { background: #3498db; color: white; } td, th { border: 1px solid #ddd; padding: 8px; }
     </style>
 </head>
-<body>
-    <h2 style='text-align: center;'>Complex Multi-Header Table 225</h2>
-    <table>
-        <colgroup>
-            <col class='category-col'>
-            <col class='val-cols' span='2'>
-        </colgroup>
-        <thead>
-            <tr class='header-main'>
-                <th rowspan='2'>Department</th>
-                <th colspan='2'>Performance Metrics</th>
-            </tr>
-            <tr class='header-sub'>
-                <th>Efficiency</th>
-                <th>Quality Score</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Software Dev</td>
-                <td>92%</td>
-                <td>4.8 / 5.0</td>
-            </tr>
-            <tr>
-                <td>Customer Support</td>
-                <td>88%</td>
-                <td>4.5 / 5.0</td>
-            </tr>
-            <tr>
-                <td>Marketing</td>
-                <td>95%</td>
-                <td>4.2 / 5.0</td>
-            </tr>
-        </tbody>
-    </table>
+<body><div class="demo-container">
+    <h1>Tables Hard Challenge #1</h1>
+    <p class="description">Task: Build a table with specific column widths using colgroup.</p>
+    <div class="work-area">
+        <table style="width:100%; border-collapse:collapse;">
+            <thead><tr><th>Header A</th><th>Header B</th></tr></thead>
+            <tbody>
+                <tr><td>Data 1</td><td>Data 2</td></tr>
+                <tr><td>Data 3</td><td>Data 4</td></tr>
+            </tbody>
+        </table>
+        <p style="margin-top:10px;"><b>Task:</b> Build a table with specific column widths using colgroup.</p>
+    </div>
+</div>
 </body>
 </html>

@@ -2,45 +2,19 @@
 <html>
 <head>
     <style>
-        .modern-form { max-width: 600px; margin: 40px auto; background: #fff; padding: 30px; border-top: 5px solid #6200ee; box-shadow: 0 10px 25px rgba(0,0,0,0.2); font-family: 'Roboto', sans-serif; }
-        .form-section { margin-bottom: 30px; }
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .full-width { grid-column: 1 / -1; }
-        label { font-weight: 600; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: #777; }
-        input[type='text'], input[type='file'], input[type='date'], select { border: none; border-bottom: 2px solid #eee; padding: 12px 0; font-size: 1rem; width: 100%; transition: border-color 0.3s; background: transparent; }
-        input:focus { outline: none; border-color: #6200ee; }
-        .range-container { margin-top: 20px; }
-        .submit-area { text-align: right; margin-top: 30px; }
-        button { background: #6200ee; color: #fff; border: none; padding: 15px 40px; border-radius: 30px; font-weight: bold; cursor: pointer; transition: 0.3s; }
-        button:hover { background: #3700b3; box-shadow: 0 5px 15px rgba(98,0,238,0.3); }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+        .demo-container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #f1c40f; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #f1c40f; padding-bottom: 10px; }
+        .description { color: #666; font-style: italic; margin-bottom: 25px; }
+        .work-area { border: 2px dashed #ddd; padding: 20px; border-radius: 8px; }
+    
     </style>
 </head>
-<body>
-    <div class='modern-form'>
-        <h2>Job Application Form 216</h2>
-        <form>
-            <div class='grid'>
-                <div class='field'>
-                    <label>Full Name</label>
-                    <input type='text' required>
-                </div>
-                <div class='field'>
-                    <label>Preferred Date</label>
-                    <input type='date' required>
-                </div>
-                <div class='field full-width'>
-                    <label>Profile Picture</label>
-                    <input type='file' accept='image/*' style='border: 1px dashed #ccc; padding: 10px;'>
-                </div>
-                <div class='field full-width range-container'>
-                    <label>Experience Level (0-10 years)</label>
-                    <input type='range' min='0' max='10'>
-                </div>
-            </div>
-            <div class='submit-area'>
-                <button type='submit'>Send Application</button>
-            </div>
-        </form>
+<body><div class="demo-container">
+    <h1>Forms Hard Challenge #4</h1>
+    <p class="description">Task: Create a file drag-and-drop upload area form.</p>
+    <div class="work-area"><form><h3>Create a file drag-and-drop upload area form.</h3><button type="button" style="background:#f1c40f; color:white; border:none; padding:10px;">Action</button></form>
     </div>
+</div>
 </body>
 </html>

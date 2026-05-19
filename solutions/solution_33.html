@@ -2,27 +2,27 @@
 <html>
 <head>
     <style>
-        table { border-collapse: collapse; width: 100%; max-width: 400px; font-family: sans-serif; }
-        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
-        th { background-color: #f2f2f2; }
-        tr:nth-child(even) { background-color: #fafafa; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background: #f8f9fa; margin: 0; padding: 20px; }
+        .demo-container { max-width: 900px; margin: auto; background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        h1 { color: #3498db; margin-top: 0; font-size: 1.8rem; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .description { color: #666; font-style: italic; margin-bottom: 25px; }
+        .work-area { border: 2px dashed #ddd; padding: 20px; border-radius: 8px; }
+    th { background: #3498db; color: white; } td, th { border: 1px solid #ddd; padding: 8px; }
     </style>
 </head>
-<body>
-    <h3>Simple Data Table 33</h3>
-    <table>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>Alice</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Bob</td>
-            <td>30</td>
-        </tr>
-    </table>
+<body><div class="demo-container">
+    <h1>Tables Beginner Challenge #9</h1>
+    <p class="description">Task: Build a statistical data table with caption and colgroup.</p>
+    <div class="work-area">
+        <table style="width:100%; border-collapse:collapse;">
+            <thead><tr><th>Header A</th><th>Header B</th></tr></thead>
+            <tbody>
+                <tr><td>Data 1</td><td>Data 2</td></tr>
+                <tr><td>Data 3</td><td>Data 4</td></tr>
+            </tbody>
+        </table>
+        <p style="margin-top:10px;"><b>Task:</b> Build a statistical data table with caption and colgroup.</p>
+    </div>
+</div>
 </body>
 </html>
