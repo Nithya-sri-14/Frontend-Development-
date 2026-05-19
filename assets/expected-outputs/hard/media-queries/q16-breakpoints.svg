@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Expected output preview">
+  <rect width="1200" height="630" fill="#fef3c7"/>
+  <rect x="40" y="40" width="1120" height="550" rx="20" fill="white" stroke="#b45309" stroke-width="6"/>
+  <text x="80" y="120" font-family="Arial, sans-serif" font-size="36" font-weight="700" fill="#b45309">Expected Output</text>
+  <text x="80" y="175" font-family="Arial, sans-serif" font-size="28" font-weight="600" fill="#111827">Hard • Media Queries • Q16</text>
+  <foreignObject x="80" y="210" width="1040" height="330">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="font-family: Arial, sans-serif; font-size: 24px; color: #1f2937; line-height: 1.4;">
+      <p style="margin:0;">Engineer Media Queries Practice 16: Breakpoints</p>
+      <p style="margin-top:20px;">Replicate this layout and styling in your HTML/CSS submission exactly as shown in this reference.</p>
+    </div>
+  </foreignObject>
+  <rect x="80" y="500" width="280" height="56" rx="12" fill="#b45309"/>
+  <text x="110" y="536" font-family="Arial, sans-serif" font-size="24" fill="white">Target: Visual Match</text>
+</svg>
